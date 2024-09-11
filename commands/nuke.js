@@ -75,13 +75,11 @@ module.exports = {
           console.error('Failed to create or ping channel:', error);
         }
 
-        createdChannels++; // Move this outside the try block to ensure it always increments
+        createdChannels++; 
       }, 1000); // Adjust the interval if needed
     }
 
     startNuking();
-
-    // Optional: Stop the nuking process after a certain period
     nukeTimeout = setTimeout(() => {
       nuking = false;
       message.channel.send('❗ Nuke process timed out.');
