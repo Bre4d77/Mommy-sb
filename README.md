@@ -68,7 +68,8 @@ Ensure you have the following before setting up the bot:
    - Replace `"YOUR_DISCORD_TOKEN"` with your Discord token.
    - Replace `"YOUR_PREFIX"` with your desired command prefix.
    - Replace `"YOUR_ALLOWED_USER_ID_1"` and `"YOUR_ALLOWED_USER_ID_2"` with the Discord IDs of users who are allowed to use the bot.
-   - dont edit other options as they are for commands if u edit them the bot womt function properly 
+   - dont edit other options as they are for commands if u edit them the bot womt function properly
+   - also put ur id in commands/attackmode.js (i forgot lawl)
 
 4. **Start the Bot**:
    ```bash
